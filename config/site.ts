@@ -13,6 +13,16 @@ export const siteConfig = {
       href: "/my-builds",
     },
   ],
+  mainFooter: [
+    {
+      title: "Contact",
+      href: "/contact",
+    },
+    {
+      title: "Privacy Policy",
+      href: "/privacy-policy",
+    },
+  ],
   links: {
     twitter: "https://twitter.com/baldursgate3",
     twitch: "https://www.twitch.tv/directory/category/baldurs-gate-3",
