@@ -1,18 +1,20 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
-  description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+  name: "Baldurs.build",
+  description: "Explore meta builds for the game Baldurs Gate 3.",
   mainNav: [
     {
-      title: "Home",
+      title: "Meta builds",
       href: "/",
+    },
+    {
+      title: "My builds",
+      href: "/my-builds",
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+    twitter: "https://twitter.com/baldursgate3",
+    twitch: "https://www.twitch.tv/directory/category/baldurs-gate-3",
   },
 }
