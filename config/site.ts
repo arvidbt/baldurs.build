@@ -1,7 +1,8 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Baldurs.build",
+  website: "Baldurs.build",
+  name: "Baldurs Build",
   description: "Explore meta builds for the game Baldurs Gate 3.",
   mainNav: [
     {

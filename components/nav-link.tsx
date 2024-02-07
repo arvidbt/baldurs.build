@@ -1,8 +1,5 @@
 "use client"
 
-import { Link } from "lucide-react"
-
-import { Icons } from "./icons"
 import { buttonVariants } from "./ui/button"
 
 type NavLinkProps = {
@@ -11,6 +8,7 @@ type NavLinkProps = {
   children: React.ReactNode
 }
 
+// Next Link causes hydration error..?
 export function NavLink({ hrefTarget, targetName, children }: NavLinkProps) {
   return (
     <a href={hrefTarget} target="_blank" rel="noreferrer">

@@ -9,13 +9,14 @@ export function SiteFooter() {
     <footer className="sticky bottom-0 z-40 w-full border-t bg-background">
       <div className="container flex items-center space-x-4 sm:justify-between sm:space-x-0">
         <div className="py-4">
-          <h1 className="py-2 text-xl font-extrabold">Baldurs Build</h1>
-          <p className="text-xs">
-            Baldurs.build is not affiliated with or endorsed by Larian Studios.
+          <h1 className="py-2 text-xl font-extrabold">{siteConfig.name}</h1>
+          <p className="pb-2 text-xs">
+            <span className="font-semibold">Baldurs.build</span> is not
+            affiliated with or endorsed by Larian Studios.
           </p>
           <p className="pb-2 text-xs">
-            Baldurs.build is a collection of hand-crafted top builds for Baldurs
-            Gate 3.
+            <span className="font-semibold">Baldurs.build</span> is a collection
+            of hand-crafted top builds for Baldurs Gate 3.
           </p>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-4">
@@ -30,7 +31,7 @@ export function SiteFooter() {
               hrefTarget="https://www.reddit.com/r/BaldursGate3/"
               targetName="Reddit"
             >
-              <Icons.reddit className="size-6 fill-current" />
+              <Icons.reddit className="size-5 fill-current" />
             </NavLink>
             <ThemeToggle />
           </footer>
