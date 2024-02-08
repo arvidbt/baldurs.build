@@ -8,10 +8,12 @@ export const siteConfig = {
     {
       title: "Meta builds",
       href: "/",
+      active: true,
     },
     {
       title: "My builds",
       href: "/my-builds",
+      active: false,
     },
   ],
   mainFooter: [

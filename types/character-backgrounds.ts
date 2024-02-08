@@ -1,0 +1,13 @@
+export type PossibleCharacterBackgrounds =
+  | "Acolyte"
+  | "Charlatan"
+  | "Criminal"
+  | "Entertainer"
+  | "Folk Hero"
+  | "Guild Artisan"
+  | "Noble"
+  | "Outlander"
+  | "Sage"
+  | "Soldier"
+  | "Urchin"
+  | "Haunted One"
