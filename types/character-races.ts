@@ -1,0 +1,12 @@
+export type PossibleCharacterRaces =
+  | "Dragonborn"
+  | "Drow"
+  | "Dwarf"
+  | "Elf"
+  | "Githyanki"
+  | "Gnome"
+  | "Half-Elf"
+  | "Half-Orc"
+  | "Halfling"
+  | "Human"
+  | "Tiefling"

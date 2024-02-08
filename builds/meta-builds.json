@@ -1,0 +1,243 @@
+[
+  {
+    "name": "Death Knight",
+    "classes": [
+      {
+        "name": "Paladin",
+        "icon": "https://bg3.wiki/w/images/5/56/Paladin_Class_Icon.png"
+      },
+      {
+        "name": "Warlock",
+        "icon": "https://bg3.wiki/w/images/6/66/Class_Warlock_Badge_Icon.png"
+      }
+    ],
+    "level_split": [7, 5],
+    "character_creation": {
+      "stats": {
+        "strength": { "stat": 14, "primary": false, "secondary": true },
+        "dexterity": { "stat": 12, "primary": false, "secondary": false },
+        "consitution": { "stat": 14, "primary": false, "secondary": false },
+        "wisdom": { "stat": 10, "primary": false, "secondary": false },
+        "intelligence": { "stat": 8, "primary": false, "secondary": false },
+        "charisma": { "stat": 15, "primary": true, "secondary": false }
+      },
+      "origin": {
+        "race": "Tiefling",
+        "subrace": "Zariel Tiefling"
+      },
+      "background": "Guild Artisan"
+    },
+    "fighting_style": {
+      "name": "Great Weapon Fighting",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3c/Great_Weapon_Fighting.webp/380px-Great_Weapon_Fighting.webp.png"
+    },
+    "feats": [
+      {
+        "name": "Heavy Armor Mastery",
+        "icon": "https://bg3.wiki/w/images/thumb/6/61/Heavily_Armour_Master.webp/300px-Heavily_Armour_Master.webp.png"
+      },
+      {
+        "name": "Great Weapon Mastery",
+        "icon": "https://bg3.wiki/w/images/thumb/f/f6/Great_Weapon_Master_Bonus_Attack.webp/300px-Great_Weapon_Master_Bonus_Attack.webp.png"
+      }
+    ],
+    "subclass": [
+      {
+        "name": "Oath of Vengance",
+        "icon": "https://bg3.wiki/w/images/thumb/8/87/Paladin_Oathbreaker_Icon.png/160px-Paladin_Oathbreaker_Icon.png"
+      },
+      {
+        "name": "The Great Old One",
+        "icon": "https://bg3.wiki/w/images/4/4f/Class_Warlock_Great_Old_One_Badge_Icon.png"
+      }
+    ],
+    "skills": [""],
+    "cantrips": [
+      {
+        "name": "Eldritch Blast",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b5/Eldritch_Blast.webp/380px-Eldritch_Blast.webp.png"
+      },
+      {
+        "name": "Blade Ward",
+        "icon": "https://bg3.wiki/w/images/0/01/Blade_Ward.webp?version=11180ebd1cfa72b743fd274808954051"
+      }
+    ],
+    "gear": {
+      "headwear": [
+        {
+          "name": "Helmet of Smiting",
+          "icon": "https://bg3.wiki/w/images/8/83/Metal_Helmet_Magical_Icon.png",
+          "link": "https://bg3.wiki/wiki/Helmet_of_Smiting"
+        },
+        {
+          "name": "Flawed Helldusk Helmet",
+          "icon": "https://bg3.wiki/w/images/e/ea/Flawed_Helldusk_Helmet_Icon.png",
+          "link": "https://bg3.wiki/wiki/Flawed_Helldusk_Helmet"
+        },
+        {
+          "name": "Circle of Bones",
+          "icon": "https://bg3.wiki/w/images/2/2f/Circle_of_Bones_Icon.png",
+          "link": "https://bg3.wiki/wiki/Circle_of_Bones"
+        },
+        {
+          "name": "Birthright",
+          "icon": "https://bg3.wiki/w/images/1/1b/Birthright_Icon.png",
+          "link": "https://bg3.wiki/wiki/Birthright"
+        }
+      ],
+      "amulets": [
+        {
+          "name": "Amulet of the Harpers",
+          "icon": "https://bg3.wiki/w/images/b/bf/Amulet_Necklace_F_Silver_A_1_Faded.png",
+          "link": "https://bg3.wiki/wiki/Amulet_of_the_Harpers"
+        },
+        {
+          "name": "Spellcrux Amulet",
+          "icon": "https://bg3.wiki/w/images/a/ae/Amulet_Necklace_D_Bronze_A_1_Faded.png",
+          "link": "https://bg3.wiki/wiki/Spellcrux_Amulet"
+        }
+      ],
+      "cloak": [
+        {
+          "name": "Vivacious Cloak",
+          "icon": "https://bg3.wiki/w/images/c/c1/Vivacious_Cloak_Faded.png",
+          "link": "https://bg3.wiki/wiki/Vivacious_Cloak"
+        },
+        {
+          "name": "Cloak of Elemental Absorption",
+          "icon": "https://bg3.wiki/w/images/f/f2/Cloak_of_Elemental_Absorption_Faded.png",
+          "link": "https://bg3.wiki/wiki/Cloak_of_Elemental_Absorption"
+        }
+      ],
+      "armour": [
+        {
+          "name": "Reaper's Embrace",
+          "icon": "https://bg3.wiki/w/images/5/59/Reaper%27s_Embrace_Icon.png",
+          "link": "https://bg3.wiki/wiki/Reaper%27s_Embrace"
+        },
+        {
+          "name": "Blackguard's Plate",
+          "icon": "https://bg3.wiki/w/images/2/27/Plate_Armour_PlusTwo_Icon.png",
+          "link": "https://bg3.wiki/wiki/Blackguard%27s_Plate"
+        },
+        {
+          "name": "Adamantine Splint Armour",
+          "icon": "https://bg3.wiki/w/images/b/bf/Adamantine_Splint_Mail_Icon.png",
+          "link": "https://bg3.wiki/wiki/Adamantine_Splint_Armour"
+        }
+      ],
+      "handwear": [
+        {
+          "name": "Gloves of Heroism",
+          "icon": "https://bg3.wiki/w/images/4/47/Gloves_Metal_1_Faded.png",
+          "link": "https://bg3.wiki/wiki/Gloves_of_Heroism"
+        },
+        {
+          "name": "Blackguard's Gauntlets",
+          "icon": "https://bg3.wiki/w/images/7/75/Gloves_of_Metal_E_Faded.png",
+          "link": "https://bg3.wiki/wiki/Blackguard%27s_Gauntlets"
+        },
+        {
+          "name": "Legacy of the Masters",
+          "icon": "https://bg3.wiki/w/images/b/b0/Gloves_Metal_C_Faded.png",
+          "link": "https://bg3.wiki/wiki/Legacy_of_the_Masters"
+        },
+        {
+          "name": "Gloves of Battlemage's Power",
+          "icon": "https://bg3.wiki/w/images/b/b1/Gloves_Metal_I_Faded.png",
+          "link": "https://bg3.wiki/wiki/Gloves_of_Battlemage%27s_Power"
+        },
+        {
+          "name": "Luminous Gloves",
+          "icon": "https://bg3.wiki/w/images/0/0c/Gloves_Metal_D_Faded.png",
+          "link": "https://bg3.wiki/wiki/Luminous_Gloves"
+        },
+        {
+          "name": "Cerebral Citadel Gloves",
+          "icon": "https://bg3.wiki/w/images/7/7a/Gloves_Metal_H_Faded.png",
+          "link": "https://bg3.wiki/wiki/Cerebral_Citadel_Gloves"
+        }
+      ],
+      "footwear": [
+        {
+          "name": "Blackguard's Greaves",
+          "icon": "https://bg3.wiki/w/images/0/02/Boots_Metal_1_Faded.png",
+          "link": "https://bg3.wiki/wiki/Blackguard%27s_Greaves"
+        },
+        {
+          "name": "Disintegrating Night Walkers",
+          "icon": "https://bg3.wiki/w/images/4/4f/Disintegrating_Nightwalkers_Icon.png",
+          "link": "https://bg3.wiki/wiki/Disintegrating_Night_Walkers"
+        }
+      ],
+      "rings": [
+        {
+          "name": "Killer's Sweetheart",
+          "icon": "https://bg3.wiki/w/images/6/69/Ring_I_Gold_A_1_Faded.png",
+          "link": "https://bg3.wiki/wiki/Killer%27s_Sweetheart"
+        },
+        {
+          "name": "Ring of Exalted Marrow",
+          "icon": "https://bg3.wiki/w/images/4/40/Ring_of_Exalted_Marrow_Icon.png",
+          "link": "https://bg3.wiki/wiki/Ring_of_Exalted_Marrow"
+        }
+      ],
+      "shields": [
+        {
+          "name": "Adamantite Shield",
+          "icon": "https://bg3.wiki/w/images/6/66/Adamantine_Shield_Icon.png",
+          "link": "https://bg3.wiki/wiki/Adamantine_Shield"
+        },
+        {
+          "name": "Shield of the Undevout",
+          "icon": "https://bg3.wiki/w/images/0/0e/Shield_of_the_Undevout_Icon.png",
+          "link": "https://bg3.wiki/wiki/Shield_of_the_Undevout"
+        }
+      ]
+    },
+    "weapons": [
+      {
+        "name": "Faithbreaker",
+        "icon": "https://bg3.wiki/w/images/thumb/d/d1/Faithbreaker_Icon.png/300px-Faithbreaker_Icon.png",
+        "link": "https://bg3.wiki/wiki/Faithbreaker"
+      },
+      {
+        "name": "Blackguard's Sword",
+        "icon": "https://bg3.wiki/w/images/6/6e/Blackguard%27s_Sword_Icon.png",
+        "link": "https://bg3.wiki/wiki/Blackguard%27s_Sword"
+      },
+      {
+        "name": "Phalar Aluve",
+        "icon": "https://bg3.wiki/w/images/8/89/Longsword_%2B1_Icon.png",
+        "link": "https://bg3.wiki/wiki/Phalar_Aluve"
+      },
+      {
+        "name": "Corpsegrinder",
+        "icon": "https://bg3.wiki/w/images/f/fa/Maul_PlusTwo_Icon.png",
+        "link": "https://bg3.wiki/wiki/Corpsegrinder"
+      },
+      {
+        "name": "Halberd of Vigilance",
+        "icon": "https://bg3.wiki/w/images/f/f0/Halberd_PlusTwo_Icon.png",
+        "link": "https://bg3.wiki/wiki/Halberd_of_Vigilance"
+      },
+      {
+        "name": "Charge-Bound Warhammer",
+        "icon": "https://bg3.wiki/w/images/d/d1/Warhammer_PlusOne_Icon.png",
+        "link": "https://bg3.wiki/wiki/Charge-Bound_Warhammer"
+      },
+      {
+        "name": "Sword of Chaos",
+        "icon": "https://bg3.wiki/w/images/7/75/Greatsword_PlusTwo_Icon.png",
+        "link": "https://bg3.wiki/wiki/Sword_of_Chaos"
+      }
+    ],
+    "description": "testtetsssst",
+    "guide": "",
+    "content_creator": {
+      "name": "string",
+      "youtube": "",
+      "twitch": ""
+    }
+  }
+]
